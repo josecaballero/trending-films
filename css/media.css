@@ -1,0 +1,152 @@
+@media screen and (max-width: 1270px) {
+    header nav{
+        width: 100%;
+    }
+    header nav ul li{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        border-bottom: 1px solid #D0D0D0;
+    }
+    header nav li a{
+        width: 100%;
+    }
+    .switch,.close{
+        display: block;
+    }
+    .close{
+        display: none;
+    }
+    ul{
+        display: none;
+    }
+    #menu:target .switch{
+        display: none;
+    }
+    #menu:target .close{
+        display: block;
+    }
+    #menu:target ul{
+        display: block;
+    }
+    .col-4{
+        width: 50%;
+    }
+    .col-4:nth-child(3){
+        position: relative;
+        bottom: 7px;
+    }
+    .col-4:nth-child(5){
+        position: relative;
+        bottom: 14px;
+    }
+    .col-4:nth-child(6){
+        position: relative;
+        bottom: 14px;
+    }
+    .col-4:nth-child(7){
+        position: relative;
+        bottom: 21px;
+    }
+    .col-4:nth-child(8){
+        position: relative;
+        bottom: 21px;
+    }
+    .col-4:nth-child(9){
+        position: relative;
+        bottom: 28px;
+        width: 100%;
+        height: auto;
+    }
+    .col-8:nth-child(10){
+        width: 100%;
+        position: relative;
+        bottom: 35px;
+    }
+    .col-4:nth-child(11){
+        position: relative;
+        bottom: 42px;
+    }
+    .col-4:nth-child(12){
+        position: relative;
+        bottom: 42px;
+    }
+    .col-8:nth-child(13){
+        position: relative;
+        bottom: 49px;
+        width: 100%;
+    }
+}
+footer .social{
+    margin-top: -110px;
+}
+
+@media screen and (max-width: 645px){
+    .col-4{
+        width: 100%;
+    }
+    .col-4:nth-child(2){
+        position: relative;
+        bottom: 7px;
+    }
+    .col-4:nth-child(3){
+        position: relative;
+        bottom: 14px;
+    }
+    .col-4:nth-child(4){
+        position: relative;
+        bottom: 21px;
+    }
+    .col-4:nth-child(5){
+        position: relative;
+        bottom: 28px;
+    }
+    .col-4:nth-child(6){
+        position: relative;
+        bottom: 35px;
+    }
+    .col-4:nth-child(7){
+        position: relative;
+        bottom: 42px;
+    }
+    .col-4:nth-child(8){
+        position: relative;
+        bottom: 49px;
+    }
+    .col-4:nth-child(9){
+        position: relative;
+        bottom: 56px;
+    }
+    .col-8:nth-child(10){
+        position: relative;
+        bottom: 63px;
+    }
+    .col-4:nth-child(11){
+        position: relative;
+        bottom: 70px;
+    }
+    .col-4:nth-child(12){
+        position: relative;
+        bottom: 77px;
+    }
+    .col-8:nth-child(13){
+        position: relative;
+        bottom: 84px;
+    }
+    .social{
+        width: 70%;
+        text-align: center;
+        position: relative;
+    }
+
+    .fa{
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+
+    }
+    .col-8 div.fa-heart{
+        position: absolute;
+        left: 0.2px;
+    }
