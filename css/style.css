@@ -1,278 +1,276 @@
-/*
-=====================================  
-Grid Website
-Jose Luis Caballero
-01/02/2015
-=======================================
-*/
-
-/* GLOBAL
-======================================
-=====================================*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    font: 1em/1.5 montserrat;
-    color: #fff;
-}
-body,html{
-    height: 100%;
-}
-li{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-    color: #fff;
-}
-.container{
-    width: 75%;
-    margin: 0 auto;
-    overflow: hidden;
-    position: relative;
-}
-/* HEADER 
-====================================
-====================================*/
-header{
-    background: #2F4A59;
-    margin-bottom: 20px;
-    padding: 15px 0;
-    position: fixed;
-    z-index: 999;
-    opacity: 0.99;
-    overflow: hidden;
-    font-size: 1em;
-}
-h1{
-    color: lightgrey;
-    float: left;
-    line-height: 50px;
-    margin-left: 10px;
-    font-family: poiret one, cursive;
-    letter-spacing: -0.5px;
-    cursor: pointer;
-}
-header nav{
-    float: right;
-}
-header nav ul li{
-    float: left;
-    margin-left: 70px;
-    line-height: 50px;
-}
-header nav ul li a{
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;  
-    -ms-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-header nav ul li a:hover{
-    color: #F0AA52;
-}
-#logo{
-    width: 50px;
-    height: 50px;
-    float: left;
-}
-#logo img{
-    width: 50px;
-    height: 50px;
-}
-span{
-    color: #F0AA52;
-}
-/* GRID
-=========================================
-=========================================*/
-.col{
-    float: left;
-    width: 100%;
-    z-index: 1;
-}
-section{
-    padding: 120px 0;
-}
-.col-12{
-    width: 100%;
-    position: fixed;
-}
-.col-4{
-    width: 33.333333333%;
-    float: left;
-    opacity: 0.85;
-    overflow: hidden;
-    -webkit-transition: opacity 0.6s ease-out; 
-    -moz-transition: opacity 0.6s ease-out; 
-    -o-transition: opacity 0.6s ease-out; 
-    -ms-transition: opacity 0.6s ease-out; 
-    transition: opacity 0.6s ease-out; 
-    position: relative;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.col-4 img{
-    width: 100%;
+body {
+  font: 1em/1.5 montserrat;
+  color: #fff;
 }
-.col-4:nth-child(4),.col-4:nth-child(5),.col-4:nth-child(6){
-    position: relative;
-    bottom: 7px;
+
+body, html {
+  height: 100%;
 }
-.col-4:nth-child(7),.col-4:nth-child(8),.col-4:nth-child(9){
-    position: relative;
-    bottom: 14px;
+
+li {
+  list-style: none;
 }
-.col-4:nth-child(11){
-    position: relative;
-    bottom: 21px;
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
-.col-4:nth-child(12){
-    position: relative;
-    bottom: 28px;
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
 }
-.col-8:nth-child(13){
-    position: relative;
-    bottom: 28px;
+
+header {
+  background: #2f4a59;
+  margin-bottom: 20px;
+  padding: 15px 0;
+  position: fixed;
+  z-index: 999;
+  opacity: .99;
+  overflow: hidden;
+  font-size: 1em;
 }
+
+h1 {
+  color: #d3d3d3;
+  float: left;
+  line-height: 50px;
+  margin-left: 10px;
+  font-family: poiret one,cursive;
+  letter-spacing: -.5px;
+  cursor: pointer;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul li {
+  float: left;
+  margin-left: 70px;
+  line-height: 50px;
+}
+
+header nav ul li a {
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+header nav ul li a:hover {
+  color: #f0aa52;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+#logo img {
+  width: 50px;
+  height: 50px;
+}
+
+span {
+  color: #f0aa52;
+}
+
+.col {
+  float: left;
+  width: 100%;
+  z-index: 1;
+}
+
+section {
+  padding: 120px 0;
+}
+
+.col-12 {
+  width: 100%;
+  position: fixed;
+}
+
+.col-4 {
+  width: 33.333333333%;
+  float: left;
+  opacity: .85;
+  overflow: hidden;
+  -webkit-transition: opacity .6s ease-out;
+  -moz-transition: opacity .6s ease-out;
+  -o-transition: opacity .6s ease-out;
+  -ms-transition: opacity .6s ease-out;
+  transition: opacity .6s ease-out;
+  position: relative;
+}
+
+.col-4 img {
+  width: 100%;
+}
+
+.col-4:nth-child(4), .col-4:nth-child(5), .col-4:nth-child(6) {
+  position: relative;
+  bottom: 7px;
+}
+
+.col-4:nth-child(7), .col-4:nth-child(8), .col-4:nth-child(9) {
+  position: relative;
+  bottom: 14px;
+}
+
+.col-4:nth-child(11) {
+  position: relative;
+  bottom: 21px;
+}
+
+.col-4:nth-child(12), .col-8:nth-child(13) {
+  position: relative;
+  bottom: 28px;
+}
+
 .col-4:hover {
-    opacity: 1;
+  opacity: 1;
 }
-::selection{
-    background: transparent;
-}
-div.titulo{
-    position: absolute;
-    bottom: 8px;
-    left: -100%;
-    opacity: 1;
-    width: 100%;
-    color: #fff;
-    -webkit-transition: all 0.6s ease-out;  
-    -webkit-transition: all 0.6s ease-out; 
-    -moz-transition: all 0.6s ease-out; 
-    -o-transition: all 0.6s ease-out; 
-    -ms-transition: all 0.6s ease-out; 
-    transition: all 0.6s ease-out; 
-    padding: 2.5% 4%;
 
+::selection {
+  background: transparent;
 }
-.col-4:hover div.titulo{
-    display: block;
-    left: 0;
-}
-div.titulo h2{
-    color: #fff;
-    font-weight: 700;
-    letter-spacing: -0.5px;
-    opacity: 1;
-    font-size: 1em;
-}
-div.fa-heart{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    opacity: 1;
-    color: #fff;
-    -webkit-transition: color 0.6s ease;  
-    -moz-transition: color 0.6s ease; 
-    -o-transition: color 0.6s ease; 
-    -ms-transition: color 0.6s ease; 
-    transition: color 0.6s ease; 
-    padding: 0;
-}
-div.fa-heart:hover{
-    color: #E15B64;
-    cursor: pointer;
-}
-.col-8{
-    width: 66.666666%;
-    float: left;
-    opacity: 0.85;
-    overflow: hidden;
-    -webkit-transition: opacity 0.6s ease-out; 
-    -moz-transition: opacity 0.6s ease-out; 
-    -o-transition: opacity 0.6s ease-out; 
-    -ms-transition: opacity 0.6s ease-out; 
-    transition: opacity 0.6s ease-out; 
-    position: relative;
-    bottom: 21px;
-}
-.col-8 .fa-heart{
-    left: 12px;
-    top: 12px;
-}
-.col-8:hover{
-    opacity: 1;
-}
-.col-8 img{
-    max-width: 100%;
-    min-height: 100%;
-}
-.col-8:hover div.titulo{
-    display: block;
-    left: 0;
-}
-/* FOOTER
-========================================
-========================================*/
-.social{
-    -webkit-transition: opacity 3s ease-out; 
-    -moz-transition: opacity 3s ease-out; 
-    -o-transition: opacity 3s ease-out; 
-    -ms-transition: opacity 0.6s ease-out; 
-    transition: opacity 0.6s ease-out; 
-}
-footer{
 
-    text-align: center;
-    font-size: 40px;
-    margin-top: -30px;
+div.titulo {
+  position: absolute;
+  bottom: 8px;
+  left: -100%;
+  opacity: 1;
+  width: 100%;
+  color: #fff;
+  -webkit-transition: all .6s ease-out;
+  -moz-transition: all .6s ease-out;
+  -o-transition: all .6s ease-out;
+  -ms-transition: all .6s ease-out;
+  transition: all .6s ease-out;
+  padding: 2.5% 4%;
+}
 
+.col-4:hover div.titulo {
+  display: block;
+  left: 0;
 }
-.fa-facebook,.fa-twitter,.fa-google-plus{
-    color: #314C5A;
-    opacity: 0.6;
-    letter-spacing: 45px;
-    -webkit-transition: opacity 0.4s ease;
-    -moz-transition: opacity 0.4s ease;
-    -o-transition: opacity 0.4s ease;
-    -ms-transition: opacity 0.4s ease;
-    transition: opacity 0.4s ease;
+
+div.titulo h2 {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: -.5px;
+  opacity: 1;
+  font-size: 1em;
 }
-.fa-facebook:hover{
-    opacity: 1;
+
+div.fa-heart {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  opacity: 1;
+  color: #fff;
+  -webkit-transition: color .6s ease;
+  -moz-transition: color .6s ease;
+  -o-transition: color .6s ease;
+  -ms-transition: color .6s ease;
+  transition: color .6s ease;
+  padding: 0;
 }
-.fa-twitter:hover{
-    opacity: 1;
+
+div.fa-heart:hover {
+  color: #e15b64;
+  cursor: pointer;
 }
-.fa-google-plus:hover{
-    opacity: 1;
+
+.col-8 {
+  width: 66.666666%;
+  float: left;
+  opacity: .85;
+  overflow: hidden;
+  -webkit-transition: opacity .6s ease-out;
+  -moz-transition: opacity .6s ease-out;
+  -o-transition: opacity .6s ease-out;
+  -ms-transition: opacity .6s ease-out;
+  transition: opacity .6s ease-out;
+  position: relative;
+  bottom: 21px;
 }
-footer p{
-    text-align: right;
-    color: #222;
-    font-size: 0.3em;
+
+.col-8 .fa-heart {
+  left: 12px;
+  top: 12px;
 }
-#menu{
-    postion: fixed;
+
+.col-8:hover {
+  opacity: 1;
 }
-.switch{
-    position: absolute;
-    top: 1px;
-    right: 0;
-    font-size: 2em;
-    color: #F0AA52;
+
+.col-8 img {
+  max-width: 100%;
+  min-height: 100%;
 }
-.close{
-    position: absolute;
-    top: 1px;
-    right: 0;
-    font-size: 2em;
-    color: #F0AA52;
+
+.col-8:hover div.titulo {
+  display: block;
+  left: 0;
 }
-.switch,.close{
-    display: none;
+
+.social {
+  -webkit-transition: opacity 3s ease-out;
+  -moz-transition: opacity 3s ease-out;
+  -o-transition: opacity 3s ease-out;
+  -ms-transition: opacity .6s ease-out;
+  transition: opacity .6s ease-out;
+}
+
+footer {
+  text-align: center;
+  font-size: 40px;
+  margin-top: -30px;
+}
+
+.fa-facebook, .fa-twitter, .fa-google-plus {
+  color: #314c5a;
+  opacity: .6;
+  letter-spacing: 45px;
+  -webkit-transition: opacity .4s ease;
+  -moz-transition: opacity .4s ease;
+  -o-transition: opacity .4s ease;
+  -ms-transition: opacity .4s ease;
+  transition: opacity .4s ease;
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-google-plus:hover {
+  opacity: 1;
+}
+
+footer p {
+  text-align: right;
+  color: #222;
+  font-size: .3em;
+}
+
+#menu {
+  postion: fixed;
+}
+
+.switch, .close {
+  position: absolute;
+  top: 1px;
+  right: 0;
+  font-size: 2em;
+  color: #f0aa52;
+  display: none;
 }
